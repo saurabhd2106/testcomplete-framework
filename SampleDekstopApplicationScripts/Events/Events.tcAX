@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{6184CBE6-825D-4C35-BA25-DBF317545607}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="" />
+	<testData />
+	<data />
+	<children>
+		<child key="{D7C48292-2023-4D61-A16B-D56C6D6ED364}">
+			<config nodeName="TerminateApp" lastOpenedTLB="" generatedCLSID="{3AE58032-7497-4C9A-959C-7C619D95E5FB}" generatedTLBKey="{46A3427F-0731-4F77-9D0A-CAFED0A8A875}" generatedEventsKey="{D5650624-8D28-492D-BA4D-8CABDE1D5C0F}" generatedTLBDesc="TestComplete TerminateApp Control - 6/9/2020 8:49:23 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+				<handlerInfo handlerName="TerminateApp_OnStopTest" handlerMoniker="{00CBA42B-62BA-48DD-A02C-6CFAFF987595}TerminateApp_OnStopTest" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{21C0C535-40F8-4587-8246-F38BD6DCDF28}">
+			<config nodeName="InitializeApp" lastOpenedTLB="" generatedCLSID="{50A3816E-0EA9-4B04-B30E-5CC22644F3DA}" generatedTLBKey="{AF8D68E1-48CC-4B60-9E00-0DF987235B4E}" generatedEventsKey="{803C6080-9BDB-488A-9757-F2976B6D7092}" generatedTLBDesc="TestComplete InitializeApp Control - 6/9/2020 8:14:34 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
+				<handlerInfo handlerName="InitializeApp_OnStartTest" handlerMoniker="{00CBA42B-62BA-48DD-A02C-6CFAFF987595}InitializeApp_OnStartTest" handlerEventName="OnStartTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743808" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

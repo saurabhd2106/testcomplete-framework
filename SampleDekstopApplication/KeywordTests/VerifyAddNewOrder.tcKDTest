@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{2724AA63-7F84-4CFA-A3C2-02430EC2FB82}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AddNewOrder" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{4937BC9C-96BB-497E-896D-D14716646734}" />
+	<Parameters Key="{C7CF7B6A-E212-4DE3-83B7-F2EA79A35C2E}" />
+</Root>

@@ -1,0 +1,54 @@
+﻿'USEUNIT CommonActions
+
+Function AddNewOrder
+  Log.Message("Adding a new user")
+  
+  CommonActions.SelectMenuAction("Orders|New order...")
+  
+  Dim orders
+  Dim mainForm
+  Dim orderForm
+  Dim groupBox
+  Dim numericUpDown
+  Dim textBox
+  Dim dlgSaveAs
+  Dim comboBox
+  Dim edit
+  Set orders = Aliases.Orders
+  
+  Set orderForm = orders.OrderForm
+  Set groupBox = orderForm.Group
+  Call groupBox.ProductNames.ClickItem("FamilyAlbum")
+  
+  Set numericUpDown = groupBox.Quantity
+  numericUpDown.wValue = 2
+  
+  Set textBox = groupBox.Price
+  Call textBox.SetText("$100")
+  
+  Set textBox = groupBox.Customer
+  Call textBox.SetText("Saurabh Dhingra")
+  
+  Set textBox = groupBox.Street
+  Call textBox.SetText("12")
+  
+  Set textBox = groupBox.City
+  Call textBox.SetText("Gurgaon")
+  
+  Set textBox = groupBox.State
+  Call textBox.SetText("Haryana")
+  Call groupBox.Zip.SetText("122001")
+  Call groupBox.MasterCard.ClickButton
+  
+  Set textBox = groupBox.CardNo
+  Call textBox.SetText("34324324728394918324")
+  Call orderForm.ButtonOK.ClickButton
+  CommonActions.SelectMenuAction("File|Save As...")
+  
+  Dim fileName
+  fileName = "C:\Users\Public\Documents\TestComplete 14 Samples\Desktop\Orders\C#\TCProjects\TestData" & aqConvert.DateTimeToFormatStr(aqDateTime.Now(), "%m%d%y%S") & ".tbl"
+  
+  CommonActions.SaveFile(fileName)
+  
+  Log.Message("Add User Done")
+End Function

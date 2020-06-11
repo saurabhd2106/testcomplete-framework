@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="14.0">
+	<children>
+		<child name="ToolBar" key="{F77A9FDB-340A-4AB6-9180-970EA9843743}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="ToolBar" ID="{F77A9FDB-340A-4AB6-9180-970EA9843743}" FileName="Regions\ToolBar.png" Update="False" />
+		</child>
+		<child name="MainForm" key="{3C7D8FEF-B0AC-4800-8C58-729790F799D0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="14.0" caption="MainForm" ID="{3C7D8FEF-B0AC-4800-8C58-729790F799D0}" FileName="Regions\MainForm.png" Update="False" />
+		</child>
+	</children>
+</Root>

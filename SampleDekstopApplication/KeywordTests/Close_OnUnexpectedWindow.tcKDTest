@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{FEC0800C-2030-4A3B-8869-78CF16795005}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Variables Version="3" Key="{DFD6C677-F093-42BF-8C1F-5E994ECA7E17}" />
+	<Parameters Key="{C230FC04-C8F4-45A6-A241-A703FDD7BBA1}">
+		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+		<Parameter1 Name="Window" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+		<Parameter2 Name="LogParams" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{4C0C3A97-525B-4BCD-A566-FED03E132C6D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{56B7409E-809F-4569-B55F-35534DDD66FF}">
+				<Data Description="Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log." />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{9D545F47-77A4-4086-A4B1-CFC732AC2038}" />
+	<Parameters Key="{F2FD5963-F936-40BC-9DC2-F4EA2895D18E}" />
+</Root>

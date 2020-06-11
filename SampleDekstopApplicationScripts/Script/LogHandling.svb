@@ -1,0 +1,14 @@
+﻿Function IndentLog(folderName)
+  Dim attr
+  
+  Set attr = Log.CreateNewAttributes
+  attr.Bold = True 
+  
+  Call Log.AppendFolder(folderName ,"" , pmNormal , attr)
+  
+End Function
+
+Function OutdentLog()
+  'Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Call Log.PopLogFolder
+End Function

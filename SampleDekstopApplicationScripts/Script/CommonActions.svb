@@ -1,0 +1,16 @@
+﻿Function SelectMenuAction(MenuItem)
+  'Clicks the 'MainForm' object.
+  Call Aliases.Orders.MainForm.Click()
+  'Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Call Aliases.Orders.MainForm.MainMenu.Click(MenuItem)
+End Function
+
+Function SaveFile(filename)
+  Set orders = Aliases.Orders
+  Set dlgSaveAs = orders.dlgSaveAs
+  Set comboBox = dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox
+  Set edit = comboBox.Edit
+  Call comboBox.SetText(filename)
+  Call dlgSaveAs.btnSave.ClickButton
+End Function
+

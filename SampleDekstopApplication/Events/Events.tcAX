@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{6A95A0BF-4C02-48FE-AE64-8ACD8C14BE3A}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Events" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{F2DE2BEF-C8CF-45D1-8B8A-D2FC03AA237B}">
+			<config nodeName="TerminateApp" lastOpenedTLB="" generatedCLSID="{09C489E3-6B1A-4254-A561-3B7D8E271973}" generatedTLBKey="{489EE1FD-0C1C-4F7C-AAF3-CE3BA03B2FC6}" generatedEventsKey="{9A1B6C41-95D5-475B-8462-59756F530085}" generatedTLBDesc="TestComplete TerminateApp Control - 6/9/2020 7:14:22 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743809" infoControlName="Test Engine Events" infoEventName="OnStopTest" infoEventRealName="OnStopTest" infoDescription="Occurs when TestComplete stops running a test or when the execution of a test item is over." />
+				<handlerInfo handlerName="TerminateApp_OnStopTest" handlerMoniker="KDT\{7A598D1B-5A86-483E-B5C4-9FFEEC1480AE}" handlerEventName="OnStopTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743809" />
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{206CEEF2-02CC-49FC-981B-A4E98A7E0A9E}">
+			<config nodeName="InitializeApp" lastOpenedTLB="" generatedCLSID="{DA30CFE7-1F78-4DCA-B9B8-F04AC0077AA2}" generatedTLBKey="{8729B7D8-F61F-413C-8432-2A035369C161}" generatedEventsKey="{0248EC41-DC33-4867-BD77-0F2DA2F748E2}" generatedTLBDesc="TestComplete InitializeApp Control - 6/9/2020 7:12:30 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{F5856842-4323-49FD-B806-36E22179EF8A}" infoID="1610743808" infoControlName="Test Engine Events" infoEventName="OnStartTest" infoEventRealName="OnStartTest" infoDescription="Occurs when TestComplete starts running a test (whether it is run from the UI or command line, or as a project test item)." />
+				<handlerInfo handlerName="InitializeApp_OnStartTest" handlerMoniker="KDT\{754A7FC8-8CFB-4C30-BB51-3C05FC182299}" handlerEventName="OnStartTest" handlerRealIID="{F5856842-4323-49FD-B806-36E22179EF8A}" handlerRealDispID="1610743808" />
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{C81D4760-E1A7-43BD-BCD9-9EE548983758}">
+			<config nodeName="CloseUnexpectedWindow" lastOpenedTLB="" generatedCLSID="{155EA6A6-2F84-446E-B6EB-15E9E2F67017}" generatedTLBKey="{63F0C22C-2DD7-4CC6-A088-D8E8303DB190}" generatedEventsKey="{398EB4D4-D9D7-49EB-B8F9-EB974A9BE77D}" generatedTLBDesc="TestComplete EventControl1 Control - 6/9/2020 7:38:21 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743818" infoControlName="General Events" infoEventName="OnUnexpectedWindow" infoEventRealName="OnUnexpectedWindow" infoDescription="Occurs when an unexpected window appears." />
+				<handlerInfo handlerName="Close_OnUnexpectedWindow" handlerMoniker="KDT\{651548A5-359B-4F5A-A4FD-6F3B16A5E7C4}" handlerEventName="OnUnexpectedWindow" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743818" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

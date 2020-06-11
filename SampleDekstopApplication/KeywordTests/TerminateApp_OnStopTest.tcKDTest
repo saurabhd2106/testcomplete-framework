@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{555C1FCC-03AF-4E7D-810F-88C619C9D8A1}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Sys.Process(&quot;Orders&quot;)" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A11ED9D0D0F09F6CCCC0F0BF815C0CB217A8975470E0C001889DA3FA8745F881E293540C4E73B0F807A52112314C3F481F39E917A48F61100000133B6ACE" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{180A2D9C-07CF-406C-A3AD-F5F88281A719}">
+				<Data Description="Closes the process by sending the close command to its main window." Action="Close" Process="Orders" Index="1">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="60000" VarType="3" ValueType="1" ValueValue="60000" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="OutdentLog" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{47B895B4-EB33-4B2C-A812-57C5EDEE4081}" />
+	<Parameters Key="{C9311260-ACD5-4C6F-8880-36C57077C283}">
+		<Parameter0 Name="Sender" VarType="12" IsOptional="False" DefValueType="0" DefValueValue="0" Description="" />
+	</Parameters>
+</Root>

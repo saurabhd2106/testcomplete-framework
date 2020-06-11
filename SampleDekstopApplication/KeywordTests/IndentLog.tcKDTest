@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{40B2F36E-7B28-4075-BF3B-6D88C4B1666D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Moniker="Keyword Test OperationsLog Attributes Keyword Test OperationSmartBear Software1.0Log Attributes" StringID="Operation: Log Attributes&#13;&#10;Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)">
+				<Data>
+					<Data>
+						<Description Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="6" ValueValue="Defines the font and color settings for test log items." />
+						<FontColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="0" />
+						<BackColor Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="1" ValueValue="16777215" />
+						<Bold Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+						<Italic Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+						<Underline Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+						<StrikeOut Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="False" />
+						<PlainTextRemarks Type="{86CF6D5D-A546-4302-B83D-B306E750D8E4}" ValueType="7" ValueValue="True" />
+					</Data>
+					<Parameters />
+				</Data>
+			</Operation>
+			<Operation Type="{28D3E73B-A718-4E67-96A3-4C49D5D4B340}">
+				<Data Description="Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="TestLogStart" />
+						<Parameter Name="AdditionalInformation" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" ParamType="{D44DB91E-FD74-4F67-BE3D-951A1238A9AD}" />
+						<Parameter Name="OwnerFolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{D3C5D9D5-0888-4C7B-8505-444D095E8897}" />
+	<Parameters Key="{3FB6DDCE-D025-47B1-A2EC-7152664CBB27}" />
+</Root>

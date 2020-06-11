@@ -1,0 +1,18 @@
+﻿'USEUNIT AddOrder
+'USEUNIT CommonActions
+'USEUNIT LogHandling
+'USEUNIT Unit1
+Sub InitializeApp_OnStartTest(Sender)
+  LogHandling.IndentLog("Log Start")
+  Log.Message("Initialize Orders App")
+  Call TestedApps.Orders.Run(1)
+ 
+End Sub
+
+Sub TerminateApp_OnStopTest(Sender)
+  
+  Log.Message("Terminating orders App")
+  Call Sys.Process("Orders").Close
+  LogHandling.OutdentLog()
+  
+End Sub

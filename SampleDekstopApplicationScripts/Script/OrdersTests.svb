@@ -1,0 +1,7 @@
+﻿'USEUNIT AddOrder
+Function VerifyAddNewOrder
+
+  AddOrder.AddNewOrder()
+  
+  
+End Function

@@ -1,0 +1,47 @@
+﻿Sub InitializeApp_OnStartTest(Sender)
+  'Runs a keyword test.
+  Call KeywordTests.IndentLog.Run
+  'Runs the "Orders" tested application.
+  Call TestedApps.Orders.Run(1)
+End Sub
+
+Sub IndentLog()
+  'Unable to convert the operation:
+  'Operation: Log Attributes
+  'Plug-in: Log Attributes Keyword Test Operation (Version: 1.0, SmartBear Software)
+  'No value is assigned to the LastResult variable, because the operation that assigns it has not been converted.
+  Dim LastResult
+  LastResult = Empty
+  'Creates a log folder and makes it the current folder to which messages will be posted. This folder can contain messages of different types as well as subfolders.
+  Call Log.AppendFolder("TestLogStart", "", pmNormal, LastResult)
+End Sub
+
+Sub OutdentLog()
+  'Pops the folder that is currently at the top of the folder stack out of the stack. This makes the folder that will become the top of the stack the default folder of the test log.
+  Call Log.PopLogFolder
+End Sub
+
+Sub TerminateApp_OnStopTest(Sender)
+  'Closes the process by sending the close command to its main window.
+  Call Sys.Process("Orders").Close
+  'Runs a keyword test.
+  Call KeywordTests.OutdentLog.Run
+End Sub
+
+Sub SaveAFile(fileName)
+  'Runs a keyword test.
+  Call KeywordTests.SelectMenuAction.Run("File|Save")
+  'Clicks the 'Edit' object.
+  Call Aliases.Orders.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.Edit.Click(45, 3)
+  'Enters the text in the 'ComboBox' text editor.
+  Call Aliases.Orders.dlgSaveAs.DUIViewWndClassName.Explorer_Pane.FloatNotifySink.ComboBox.SetText(fileName)
+  'Clicks the 'btnSave' button.
+  Call Aliases.Orders.dlgSaveAs.btnSave.ClickButton
+End Sub
+
+Sub SelectMenuAction(MenuItem)
+  'Clicks the 'MainForm' object.
+  Call Aliases.Orders.MainForm.Click(58, 42)
+  'Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Call Aliases.Orders.MainForm.MainMenu.Click(MenuItem)
+End Sub

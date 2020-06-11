@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Events">
+			<child name="TestEvents" key="{00CBA42B-62BA-48DD-A02C-6CFAFF987595}" path="TestEvents.svb" />
+		</folder>
+		<folder name="Utility">
+			<child name="LogHandling" key="{34C1851B-4340-45D0-B00C-C8CD526477B9}" path="LogHandling.svb" />
+		</folder>
+		<folder name="Actions">
+			<child name="CommonActions" key="{F1C539A5-ADD7-4933-B764-B43BFE6084F9}" path="CommonActions.svb" />
+		</folder>
+		<folder name="Logic">
+			<child name="AddOrder" key="{DE9B9B38-078C-471E-805D-95EB085A2D09}" path="AddOrder.svb" />
+		</folder>
+		<folder name="Tests">
+			<child name="OrdersTests" key="{E60B10A3-FA17-4927-BD63-9FB9C1450854}" path="OrdersTests.svb" />
+		</folder>
+		<folder name="Checkpoints" />
+		<child name="Unit1" key="{E744D154-985E-412E-8EF4-5FBE8E9F3A9D}" path="Unit1.svb" />
+	</children>
+</Root>

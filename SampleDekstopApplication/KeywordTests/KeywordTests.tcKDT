@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="Logic">
+			<child name="AddNewOrder" key="{0131F54D-40A4-4402-8872-0C9380995C0F}" path="AddNewOrder.tcKDTest" />
+		</folder>
+		<folder name="Utils">
+			<child name="IndentLog" key="{3543FEC3-6A91-46BF-A40B-65AA6A5A8FFB}" path="IndentLog.tcKDTest" />
+			<child name="OutdentLog" key="{040FAE0F-5B7E-4447-B2AC-46EE5951B1D8}" path="OutdentLog.tcKDTest" />
+		</folder>
+		<folder name="Tests">
+			<child name="VerifyDefaultOrderScreen" key="{EC4A2D29-2731-46B7-8350-7BBDD007A625}" path="VerifyDefaultOrderScreen.tcKDTest" />
+			<child name="VerifyAddNewOrder" key="{20185885-E187-43E2-8497-22E60EB2EB9F}" path="VerifyAddNewOrder.tcKDTest" />
+		</folder>
+		<folder name="Events">
+			<child name="InitializeApp_OnStartTest" key="{754A7FC8-8CFB-4C30-BB51-3C05FC182299}" path="InitializeApp_OnStartTest.tcKDTest" />
+			<child name="TerminateApp_OnStopTest" key="{7A598D1B-5A86-483E-B5C4-9FFEEC1480AE}" path="TerminateApp_OnStopTest.tcKDTest" />
+			<child name="Close_OnUnexpectedWindow" key="{651548A5-359B-4F5A-A4FD-6F3B16A5E7C4}" path="Close_OnUnexpectedWindow.tcKDTest" />
+		</folder>
+		<folder name="CommonActions">
+			<child name="SelectMenuAction" key="{71860716-D2B1-4904-A846-281A826C7281}" path="SelectMenuAction.tcKDTest" />
+			<child name="SaveAFile" key="{74081303-8535-45B0-A167-A301AEDBE8F8}" path="SaveAFile.tcKDTest" />
+		</folder>
+	</children>
+</Root>
